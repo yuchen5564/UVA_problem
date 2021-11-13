@@ -1,3 +1,3 @@
 # UVA_problem
- my sloved Uva problem \n
-complier used Visual Studio 2019
+ my sloved Uva problem
+ complier used Visual Studio 2019
