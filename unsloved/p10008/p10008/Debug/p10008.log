@@ -1,2 +1,68 @@
 ﻿  p10008.cpp
-  p10008.vcxproj -> C:\github_local\UVA_problem\unsloved\p10008\Debug\p10008.exe
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(714,47): error C2665: 'std::pair<std::string,int>::pair': none of the 2 overloads could convert all the argument types
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(213,5): message : could be 'std::pair<std::string,int>::pair(std::pair<std::string,int> &&)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(212,5): message : or       'std::pair<std::string,int>::pair(const std::pair<std::string,int> &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(707,1): message : while trying to match the argument list '(std::pair<const char,int>)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(1610): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<const char,int>&>(_Alloc &,_Objty *const ,std::pair<const char,int> &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<PAIR>,
+              _Ty=std::pair<std::string,int>,
+              _Objty=std::pair<std::string,int>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(1611): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<const char,int>&>(_Alloc &,_Objty *const ,std::pair<const char,int> &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<PAIR>,
+              _Ty=std::pair<std::string,int>,
+              _Objty=std::pair<std::string,int>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(1651): message : see reference to function template instantiation 'void std::_Uninitialized_backout_al<_Alloc>::_Emplace_back<std::pair<const char,int>&>(std::pair<const char,int> &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<PAIR>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(1651): message : see reference to function template instantiation 'void std::_Uninitialized_backout_al<_Alloc>::_Emplace_back<std::pair<const char,int>&>(std::pair<const char,int> &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<PAIR>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1654): message : see reference to function template instantiation 'std::pair<std::string,int> *std::_Uninitialized_copy<_Iter,std::allocator<PAIR>>(const _InIt,const _InIt,std::pair<std::string,int> *,_Alloc &)' being compiled
+          with
+          [
+              _Iter=std::_Tree_unchecked_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const char,int>>>>,
+              _InIt=std::_Tree_unchecked_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const char,int>>>>,
+              _Alloc=std::allocator<PAIR>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(530): message : see reference to function template instantiation 'std::pair<std::string,int> *std::vector<PAIR,std::allocator<PAIR>>::_Ucopy<_Iter>(_Iter,_Iter,std::pair<std::string,int> *)' being compiled
+          with
+          [
+              _Iter=std::_Tree_unchecked_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const char,int>>>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(530): message : see reference to function template instantiation 'std::pair<std::string,int> *std::vector<PAIR,std::allocator<PAIR>>::_Ucopy<_Iter>(_Iter,_Iter,std::pair<std::string,int> *)' being compiled
+          with
+          [
+              _Iter=std::_Tree_unchecked_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const char,int>>>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(542): message : see reference to function template instantiation 'void std::vector<PAIR,std::allocator<PAIR>>::_Range_construct_or_tidy<std::_Tree_unchecked_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const char,int>>>>>(_Iter,_Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=std::_Tree_unchecked_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const char,int>>>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(542): message : see reference to function template instantiation 'void std::vector<PAIR,std::allocator<PAIR>>::_Range_construct_or_tidy<std::_Tree_unchecked_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const char,int>>>>>(_Iter,_Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=std::_Tree_unchecked_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const char,int>>>>
+          ]
+C:\github_local\UVA_problem\unsloved\p10008\p10008\p10008.cpp(40): message : see reference to function template instantiation 'std::vector<PAIR,std::allocator<PAIR>>::vector<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const char,int>>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Iter=std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const char,int>>>>,
+              _Alloc=std::allocator<PAIR>
+          ]
+C:\github_local\UVA_problem\unsloved\p10008\p10008\p10008.cpp(40): message : see reference to function template instantiation 'std::vector<PAIR,std::allocator<PAIR>>::vector<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const char,int>>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Iter=std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const char,int>>>>,
+              _Alloc=std::allocator<PAIR>
+          ]

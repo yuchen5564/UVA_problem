@@ -9,6 +9,7 @@
 #include <algorithm>
 using namespace std;
 
+
 int main()
 {
     int n = 0;
@@ -31,6 +32,7 @@ int main()
             }
         }
     }
+
 
     for (auto i : alphabet) {
         cout << i.first << " " << i.second << endl;
