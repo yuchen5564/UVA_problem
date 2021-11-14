@@ -15,7 +15,7 @@ int main()
 	string str = {};
 	cin >> n;
 	map<string, int> country;
-	getline(cin, str);//讀入整行空白
+	getline(cin, str);
 	for (int i = 0; i < n; i++) {
 		getline(cin, str);
 		int s = str.find_first_of(" ", 0);
