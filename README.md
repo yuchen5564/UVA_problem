@@ -10,8 +10,8 @@
 
 
 ## 相關連結：
-[Uva onlinejudge](https://onlinejudge.org/) 、
-[CPE](https://cpe.cse.nsysu.edu.tw/environment.php)、
+[Uva onlinejudge](https://onlinejudge.org/)、
+[CPE 大學程式能力檢定](https://cpe.cse.nsysu.edu.tw/environment.php)、
 [Lucky貓 (題目中譯)](http://web.kshs.kh.edu.tw/academy/luckycat/index.htm)
 
 ## 已完成題目
@@ -26,10 +26,12 @@
 | p10929   | You can say 11            |    :star:     | 找11倍數                         |
 | p10008   | What's Cryptanalysis?     |    :star:     | **不能用map排序**、計數完後找出最大值、輸出|
 | p10222   | Decode the Mad man			|   :star:     | 建表、ACSII應用				|
+| p11332   | Summing Digits				|   :star:     | 遞迴							|
 
 ## 正在解題中...
 | 題目編號 | 題目名稱              | 卡關部分          |   參考資料  |
 |:-------- |:--------------------- |:----------------- | :--- |
+|None		|						|					|		|
 
 
 ## C++常用函式庫
