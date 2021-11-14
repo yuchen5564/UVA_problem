@@ -12,9 +12,9 @@
 ## 相關連結：
 [Uva onlinejudge](https://onlinejudge.org/) 、
 [CPE](https://cpe.cse.nsysu.edu.tw/environment.php)、
-[Luckya貓 (題目中譯)](http://web.kshs.kh.edu.tw/academy/luckycat/index.htm)
+[Lucky貓 (題目中譯)](http://web.kshs.kh.edu.tw/academy/luckycat/index.htm)
 
-## 目前已完成題目
+## 已完成題目
 | 題目編號 | 題目名稱                  | 題目難度(CPE) | 題目重點                         |
 |:-------- |:------------------------- |:-------------:|:-------------------------------- |
 | p100     | The 3n + 1 problem        |    :star:     |                                  |
@@ -25,10 +25,11 @@
 | p10420   | List of Conquests         |    :star:     | map、getline                     |
 | p10929   | You can say 11            |    :star:     | 找11倍數                         |
 | p10008   | What's Cryptanalysis?     |    :star:     | **不能用map排序**、計數完後找出最大值、輸出|
+| p10222   | Decode the Mad man			|   :star:     | 建表、ACSII應用				|
 
-## 尚在研究方法中...
+## 正在解題中...
 | 題目編號 | 題目名稱              | 卡關部分          |   參考資料  |
-|:-------- |:--------------------- |:----------------- | --- |
+|:-------- |:--------------------- |:----------------- | :--- |
 
 
 ## C++常用函式庫
@@ -37,7 +38,7 @@
 | algorithm  | sort(陣列起始, 陣列結束)             | 快速排序陣列                                     | sort(a, a+10)             |
 | string     | 字串.find_first_of(尋找元素, 起始點) | 尋找元素在字串中第一個出現的位置(可用於分割字串) | str.find_first_of(" ", 0) |
 | string     | 字串.substr(起始點, 數量)            | 從起始點以指定數量分割字串                       | str.substr(0, 5)          |
-| iostream   | getline(cin,字串)                    | 讀取整行(含空白)                                 | getline(cin, str)         |
+| string   | getline(cin,字串)                    | 讀取整行(含空白)                                 | getline(cin, str)         |
 
 ## map功能 
 ```cpp=
