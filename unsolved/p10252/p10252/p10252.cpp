@@ -10,8 +10,8 @@ using namespace std;
 int main()
 {
     string a, b;
-    while (getline(cin, a)) {
-        
+    while (1) {
+        getline(cin, a);
         getline(cin, b);
         //map<char, int>alphabet;
         int a1[26] = { 0 }, b1[26] = { 0 };
