@@ -1,1 +1,4 @@
-﻿  p10252.vcxproj -> C:\github_local\UVA_problem\unsolved\p10252\Debug\p10252.exe
+﻿  p10252.cpp
+C:\github_local\UVA_problem\unsolved\p10252\p10252\p10252.cpp(18,27): warning C4018: '<': signed/unsigned mismatch
+C:\github_local\UVA_problem\unsolved\p10252\p10252\p10252.cpp(21,27): warning C4018: '<': signed/unsigned mismatch
+  p10252.vcxproj -> C:\github_local\UVA_problem\unsolved\p10252\Debug\p10252.exe

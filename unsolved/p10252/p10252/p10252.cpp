@@ -1,4 +1,4 @@
-// p10252.cpp : This file contains the 'main' function. Program execution begins and ends there.
+﻿// p10252.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1193
 
 
@@ -10,8 +10,8 @@ using namespace std;
 int main()
 {
     string a, b;
-    while (1) {
-        getline(cin, a);
+    while (getline(cin, a)) {
+        
         getline(cin, b);
         //map<char, int>alphabet;
         int a1[26] = { 0 }, b1[26] = { 0 };
@@ -22,7 +22,7 @@ int main()
             b1[b[i] - 'a'] = 1;
         }
         for (int i = 0; i < 26; i++) {
-            if (a1[i] ==1 && b1[i]==1) {
+            if (a1[i] == 1 && b1[i] == 1) {
                 cout << char(i + 'a');
             }
         }
@@ -45,4 +45,3 @@ int main()
     return 0;
 
 }
-
